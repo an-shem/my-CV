@@ -1,3 +1,22 @@
+/* --------------- animation ---------------------- */
+
+@keyframes bodyAnimation {
+	0% {
+		transform: scaleX(0.3) translateX(-100%);
+		opacity: 0;
+	}
+
+	50% {
+		/* opacity: 0.9; */
+	}
+
+	100% {
+		opacity: 1;
+		transform: scaleX(1) translateX(0%);
+	}
+}
+
+/* ------------------------------------- */
 /* Сбрасываю отступы всм элементам */
 *,
 *::before,
@@ -12,6 +31,11 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	color: #2f3131;
+	animation-name: bodyAnimation;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transform-origin: center left;
 }
 
 ul {
@@ -242,7 +266,7 @@ address {
 }
 .work-description,
 .institution-description {
-	margin: 20px 0;
+	margin: 10px 0 20px;
 }
 
 /* --- EDUCATION ---  */
@@ -286,6 +310,7 @@ address {
 	display: flex;
 }
 .expertise-item-titel {
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-bottom: 8px;
+	font-weight: 700;
 }
