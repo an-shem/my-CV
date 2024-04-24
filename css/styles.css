@@ -204,6 +204,7 @@ address {
 
 .description {
 	margin-top: 16px;
+	text-align: justify;
 }
 
 /* --- PROJECTS --- */
@@ -234,6 +235,7 @@ address {
 	line-height: 1.36;
 	letter-spacing: 0.03em;
 	color: #2c4a52;
+	text-align: justify;
 }
 
 /* --- WORK EXPERIENCE --- */
@@ -267,6 +269,7 @@ address {
 .work-description,
 .institution-description {
 	margin: 10px 0 20px;
+	text-align: justify;
 }
 
 /* --- EDUCATION ---  */
