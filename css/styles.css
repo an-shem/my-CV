@@ -317,3 +317,20 @@ address {
 	margin-bottom: 8px;
 	font-weight: 700;
 }
+
+/* --------------- section-date ------------- */
+.section-date {
+	margin-top: 20px;
+}
+.date-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.date {
+	align-self: flex-end;
+	color: #2f3131;
+}
+.signature img {
+	width: 150px;
+	margin-right: 100px;
+}
